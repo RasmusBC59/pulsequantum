@@ -34,7 +34,7 @@ jobs:
         echo "$(pwd)"
         echo "$(ls)"
         echo "$(ls ./pulsequantum/tests/)"
-        pytest ./tests/
+        pytest ./pulsequantum/tests/
 #############################################################################         
   #  - name: disable_telemetry
    #   shell: bash -l {0}
