@@ -29,9 +29,9 @@ jobs:
     - uses: ./.github/actions/install-dependencies-and-plottr
     - name: Run Mypy
       run: mypy pulsequantum
-    #- name: Test with pytest
-     # run: |
-      #  pytest test/pytest
+    - name: Test with pytest
+      run: |
+       pytest pulsequantum/test/
 #############################################################################         
   #  - name: disable_telemetry
    #   shell: bash -l {0}
