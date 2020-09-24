@@ -31,7 +31,8 @@ jobs:
       run: mypy pulsequantum
     - name: Test with pytest
       run: |
-       pytest ./pulsequantum/test/
+        echo "$(pwd)"
+        #pytest ./pulsequantum/test/
 #############################################################################         
   #  - name: disable_telemetry
    #   shell: bash -l {0}
