@@ -4,3 +4,4 @@ pyqtgraph>=0.10.0
 h5py>=2.8.0
 lmfit>=1.0
 pandoc
+opencensus-ext-azure
