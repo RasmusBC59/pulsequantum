@@ -46,7 +46,7 @@ jobs:
       run: |
           #source activate pulsequantum &&
           #pip install -r docs_requirements.txt &&
-          #pip list &&
+          echo "$(pip list)"" &&
           cd docs &&
           export SPHINXOPTS="-W -v"  &&
           make htmlfast
