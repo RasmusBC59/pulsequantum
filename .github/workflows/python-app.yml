@@ -30,6 +30,8 @@ jobs:
     - name: disable_telemetry
       shell: bash -l {0}
       run: sed -i "s/\(enabled *= *\).*/\1False/" ./pulsequantum/conf/telemetry.ini
+    - name: Install pulsequantum
+      run: pip install . 
     - name: Run Mypy
       run: mypy pulsequantum
     #- name: Test with pytest
