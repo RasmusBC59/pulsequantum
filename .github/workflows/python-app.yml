@@ -50,6 +50,7 @@ jobs:
           echo "$(pip list)" &&
           cd docs &&
           export SPHINXOPTS="-W -v"  &&
+          echo "$(pandoc --version)" &&
           make htmlfast
 
 #############################################################################         
