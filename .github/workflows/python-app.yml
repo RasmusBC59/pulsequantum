@@ -42,7 +42,6 @@ jobs:
     - name: Build The Docs 
       shell: bash  
       run: |
-          conda install pandoc &&
           cd docs &&
           export SPHINXOPTS="-W -v"  &&
           make html
