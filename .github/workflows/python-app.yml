@@ -45,6 +45,6 @@ jobs:
           conda install pandoc &&
           cd docs &&
           export SPHINXOPTS="-W -v"  &&
-          make htmlfast
+          make html
 
 
