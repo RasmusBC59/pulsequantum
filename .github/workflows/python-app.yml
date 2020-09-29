@@ -49,8 +49,10 @@ jobs:
           conda install pandoc &&
           echo "$(pip list)" &&
           cd docs &&
-          export SPHINXOPTS="-W -v"  &&
+          #export SPHINXOPTS="-W -v"  &&
+          echo "Hep" &&
           echo "$(pandoc --version)" &&
+          echo  "Hep" &&
           make htmlfast
 
 #############################################################################         
